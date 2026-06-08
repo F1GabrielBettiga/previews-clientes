@@ -1,0 +1,59 @@
+/* =========================================
+   WHATSAPP FLOTANTE
+========================================= */
+
+.whatsapp-flotante-boton {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 62px;
+    height: 62px;
+
+    border-radius: 50%;
+
+    background: #25D366;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    box-shadow: 0 12px 28px rgba(37, 211, 102, 0.35);
+
+    z-index: 80;
+
+    transition: all 0.25s ease;
+}
+
+.whatsapp-flotante-boton:hover {
+    transform: scale(1.08);
+    box-shadow: 0 16px 34px rgba(37, 211, 102, 0.45);
+}
+
+.whatsapp-flotante-boton svg {
+    width: 34px;
+    height: 34px;
+    fill: currentColor;
+}
+
+.whatsapp-flotante-oculto {
+    display: none;
+}
+
+@media (max-width: 520px) {
+    .whatsapp-flotante-boton {
+        right: 18px;
+        bottom: 18px;
+
+        width: 56px;
+        height: 56px;
+    }
+
+    .whatsapp-flotante-boton svg {
+        width: 30px;
+        height: 30px;
+    }
+}

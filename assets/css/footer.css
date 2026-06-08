@@ -1,0 +1,95 @@
+/* =========================================
+   SECCIÓN FOOTER
+========================================= */
+
+#footer {
+    background: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    padding: 48px 16px 24px;
+}
+
+.footer-contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 32px;
+}
+
+.footer-columna h3 {
+    color: #2E7D32;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.footer-columna h4 {
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.footer-columna p,
+.footer-links a,
+.footer-contacto a,
+.footer-contacto span {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links,
+.footer-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a,
+.footer-contacto a,
+.footer-link-politica {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-contacto a:hover,
+.footer-link-politica:hover {
+    color: #2E7D32;
+}
+
+/* Link de política en footer */
+.footer-link-politica {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.6;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.footer-copy {
+    max-width: 1280px;
+    margin: 32px auto 0;
+    padding-top: 22px;
+    border-top: 1px solid rgba(229, 231, 235, 0.8);
+
+    text-align: center;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+    .footer-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    #footer {
+        padding-top: 40px;
+    }
+}

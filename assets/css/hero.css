@@ -1,0 +1,224 @@
+/* =========================================
+   SECCIÓN HERO / INICIO
+========================================= */
+
+#inicio {
+    min-height: auto;
+    padding: 120px 16px 56px;
+    background: #ffffff;
+}
+
+.hero-contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-contenido {
+    order: 1;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #C8E6C9;
+    color: #002105;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.hero-badge .material-symbols-outlined {
+    font-size: 16px;
+}
+
+.hero-titulo {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: #1F2937;
+    margin-bottom: 18px;
+}
+
+.hero-titulo span {
+    display: block;
+    color: #2E7D32;
+    margin-top: 8px;
+}
+
+.hero-descripcion {
+    max-width: 620px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #4B5563;
+    margin-bottom: 28px;
+}
+
+.hero-beneficios {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    margin-bottom: 32px;
+}
+
+.hero-beneficio {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #2E7D32;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hero-beneficio .material-symbols-outlined {
+    font-size: 19px;
+}
+
+.hero-botones {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.hero-boton-whatsapp,
+.hero-boton-secundario {
+    min-height: 58px;
+    padding: 0 28px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.2s ease;
+}
+
+.hero-boton-whatsapp {
+    background: #25D366;
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(37, 211, 102, 0.25);
+}
+
+.hero-boton-whatsapp:hover {
+    filter: brightness(1.08);
+    transform: translateY(-2px);
+}
+
+.hero-boton-secundario {
+    border: 2px solid #2E7D32;
+    color: #2E7D32;
+    background: #ffffff;
+}
+
+.hero-boton-secundario:hover {
+    background: rgba(46, 125, 50, 0.06);
+    transform: translateY(-2px);
+}
+
+.hero-imagen-contenedor {
+    position: relative;
+    order: 2;
+}
+
+.hero-imagen {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 28px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.18);
+}
+
+.hero-card-imagen {
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+    padding: 22px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.14);
+}
+
+.hero-card-imagen strong {
+    display: block;
+    color: #2E7D32;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.hero-card-imagen span {
+    color: #4B5563;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hero-whatsapp-svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+/* =========================================
+   RESPONSIVE MOBILE
+========================================= */
+
+@media (max-width: 900px) {
+    #inicio {
+        padding-top: 110px;
+    }
+
+    .hero-contenedor {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .hero-imagen-contenedor {
+        order: 1;
+    }
+
+    .hero-contenido {
+        order: 2;
+    }
+
+    .hero-imagen {
+        height: 300px;
+        border-radius: 24px;
+    }
+
+    .hero-card-imagen {
+        display: none;
+    }
+
+    .hero-titulo {
+        font-size: 34px;
+        line-height: 1.18;
+    }
+
+    .hero-descripcion {
+        font-size: 16px;
+    }
+
+    .hero-botones {
+        flex-direction: column;
+    }
+
+    .hero-boton-whatsapp,
+    .hero-boton-secundario {
+        width: 100%;
+    }
+}

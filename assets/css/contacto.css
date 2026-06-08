@@ -1,0 +1,395 @@
+/* =========================================
+   SECCIÓN CONTACTO
+========================================= */
+
+#contacto {
+    padding: 80px 16px;
+    background: #ffffff;
+}
+
+.contacto-contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+}
+
+.contacto-etiqueta {
+    display: inline-block;
+
+    background: #E8F5E9;
+    color: #2E7D32;
+
+    padding: 8px 14px;
+    border-radius: 999px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.contacto-titulo {
+    font-size: 36px;
+    font-weight: 800;
+
+    color: #1f2937;
+
+    margin-bottom: 16px;
+}
+
+.contacto-descripcion {
+    color: #4b5563;
+    line-height: 1.7;
+
+    margin-bottom: 28px;
+}
+
+.contacto-datos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+
+    color: #1f2937;
+    font-weight: 600;
+
+    transition: color 0.2s ease;
+}
+
+.contacto-item:hover {
+    color: #2E7D32;
+}
+
+/* ÍCONO DE EMAIL */
+.contacto-item .material-symbols-outlined {
+    color: #1f2937;
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.contacto-item:hover .material-symbols-outlined {
+    color: #2E7D32;
+}
+
+/* ÍCONO DE WHATSAPP */
+.contacto-whatsapp-icono svg {
+    width: 22px;
+    height: 22px;
+    fill: #1f2937;
+    display: block;
+    transition: fill 0.2s ease;
+}
+
+.contacto-item:hover .contacto-whatsapp-icono svg {
+    fill: #2E7D32;
+}
+
+/* =========================================
+   MARCA VISUAL / SELLO DE CONTACTO
+========================================= */
+
+.contacto-marca-visual {
+    margin-top: 28px;
+    max-width: 420px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding: 18px 20px;
+
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.contacto-marca-visual img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.contacto-marca-visual strong {
+    display: block;
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+}
+
+.contacto-marca-visual span {
+    display: block;
+    color: #4b5563;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* =========================================
+   FORMULARIO
+========================================= */
+
+.contacto-formulario {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 32px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.campo label {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.campo input,
+.campo textarea {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.campo textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+/* =========================================
+   CHECKBOX POLÍTICA DE PRIVACIDAD
+========================================= */
+
+.campo-politica {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+    color: #374151;
+}
+
+.campo-politica input {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+
+    margin-top: 2px;
+
+    accent-color: #2E7D32;
+    cursor: pointer;
+}
+
+.campo-politica label {
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.btn-politica {
+    background: none;
+    border: none;
+
+    color: #2E7D32;
+
+    font-weight: 800;
+    cursor: pointer;
+
+    padding: 0;
+
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.btn-politica:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   BOTÓN FORMULARIO
+========================================= */
+
+.btn-contacto {
+    width: 100%;
+
+    background: #2E7D32;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 14px;
+
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-contacto:hover {
+    background: #256428;
+}
+
+/* =========================================
+   VALIDACIÓN DEL FORMULARIO
+========================================= */
+
+.contacto-error {
+    background: #fff1f2;
+    color: #991b1b;
+    border: 1px solid #fecdd3;
+    border-left: 5px solid #dc2626;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.oculto {
+    display: none !important;
+}
+
+.campo-error {
+    border-color: #dc2626 !important;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+}
+
+/* =========================================
+   MODAL POLÍTICA DE PRIVACIDAD
+========================================= */
+
+.modal-politica {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px;
+
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.modal-politica-contenido {
+    width: 100%;
+    max-width: 720px;
+    max-height: 82vh;
+    overflow-y: auto;
+
+    position: relative;
+
+    background: #ffffff;
+    border-radius: 18px;
+
+    padding: 36px;
+
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25);
+}
+
+.modal-politica-cerrar {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+
+    background: none;
+    border: none;
+
+    color: #1f2937;
+
+    font-size: 30px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.modal-politica-contenido h3 {
+    color: #2E7D32;
+    font-size: 28px;
+    font-weight: 900;
+
+    margin-bottom: 20px;
+    padding-right: 32px;
+}
+
+.modal-politica-contenido p {
+    color: #4b5563;
+    line-height: 1.75;
+
+    margin-bottom: 16px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+    .contacto-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto-titulo {
+        font-size: 30px;
+    }
+
+    .contacto-marca-visual {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    #contacto {
+        padding: 64px 16px;
+    }
+
+    .contacto-formulario {
+        padding: 24px;
+    }
+
+    .contacto-marca-visual {
+        align-items: center;
+        padding: 16px;
+    }
+
+    .contacto-marca-visual img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .contacto-marca-visual strong {
+        font-size: 16px;
+    }
+
+    .contacto-marca-visual span {
+        font-size: 13px;
+    }
+
+    .campo-politica {
+        align-items: flex-start;
+    }
+
+    .modal-politica-contenido {
+        max-height: 85vh;
+        padding: 30px 22px;
+    }
+
+    .modal-politica-contenido h3 {
+        font-size: 24px;
+    }
+}

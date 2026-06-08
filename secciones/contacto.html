@@ -1,0 +1,91 @@
+<div class="contacto-contenedor">
+
+    <div class="contacto-info">
+
+        <span class="contacto-etiqueta">
+            Contacto
+        </span>
+
+        <h2 class="contacto-titulo" id="contacto-titulo"></h2>
+
+        <p class="contacto-descripcion" id="contacto-descripcion"></p>
+
+        <div class="contacto-datos">
+
+            <a id="contacto-whatsapp" class="contacto-item" target="_blank">
+            </a>
+
+            <a id="contacto-email" class="contacto-item">
+            </a>
+
+        </div>
+
+        <div class="contacto-marca-visual" id="contacto-marca-visual">
+            <img id="contacto-marca-img" src="" alt="">
+
+            <div>
+                <strong id="contacto-marca-titulo"></strong>
+                <span id="contacto-marca-texto"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contacto-formulario">
+
+        <form id="formulario-contacto">
+
+            <div class="campo">
+                <label>Nombre</label>
+                <input type="text" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label>Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label>Empresa</label>
+                <input type="text" id="empresa">
+            </div>
+
+            <div class="campo">
+                <label>Mensaje</label>
+                <textarea id="mensaje"></textarea>
+            </div>
+
+            <div class="campo-politica">
+                <input type="checkbox" id="acepta-politica">
+
+                <label for="acepta-politica">
+                    Acepto la
+                    <button type="button" id="abrir-politica" class="btn-politica">
+                        Política de Privacidad
+                    </button>
+                </label>
+            </div>
+
+            <div class="contacto-error oculto" id="contacto-error"></div>
+
+            <button type="submit" class="btn-contacto">
+                Enviar Consulta
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="modal-politica oculto" id="modal-politica">
+        <div class="modal-politica-contenido">
+            <button type="button" class="modal-politica-cerrar" id="cerrar-politica">
+                ×
+            </button>
+
+            <h3 id="politica-titulo"></h3>
+
+            <div id="politica-contenido"></div>
+        </div>
+    </div>
+
+</div>

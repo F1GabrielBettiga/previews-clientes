@@ -1,0 +1,218 @@
+/* =========================================
+   SECCIÓN SOBRE NOSOTROS
+========================================= */
+
+#sobre-nosotros {
+    background: #f3f4f6;
+}
+
+/* =========================================
+   FRANJA DE CONFIANZA
+========================================= */
+
+.confianza-franja {
+    background: #2E7D32;
+    padding: 52px 16px;
+}
+
+.confianza-contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.confianza-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.confianza-item .material-symbols-outlined {
+    color: #b4edec;
+    font-size: 42px;
+}
+
+.confianza-item strong {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* =========================================
+   BLOQUE SOBRE NOSOTROS
+========================================= */
+
+.sobre-contenedor {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 64px 16px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+
+    align-items: center;
+}
+
+.sobre-imagen {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.sobre-titulo {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #003535;
+    margin-bottom: 20px;
+}
+
+.sobre-descripcion {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #1f2937;
+    margin-bottom: 18px;
+}
+
+.sobre-valores {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 32px;
+}
+
+.sobre-valor {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    color: #111827;
+    font-weight: 700;
+}
+
+.sobre-valor-icono {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+
+    background: #d1e4ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-valor-icono .material-symbols-outlined {
+    color: #2e6767;
+    font-size: 24px;
+}
+
+/* =========================================
+   CTA FINAL
+========================================= */
+
+.sobre-cta {
+    background: #2E7D32;
+    color: #ffffff;
+    text-align: center;
+    padding: 48px 16px;
+}
+
+.sobre-cta h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.sobre-cta p {
+    font-size: 16px;
+    opacity: 0.92;
+    margin-bottom: 28px;
+}
+
+.sobre-cta-botones {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.sobre-cta-whatsapp,
+.sobre-cta-email {
+    min-height: 52px;
+    padding: 0 28px;
+    border-radius: 8px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    font-weight: 800;
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+.sobre-cta-whatsapp {
+    background: #25D366;
+    color: #ffffff;
+}
+
+.sobre-cta-email {
+    background: #ffffff;
+    color: #003535;
+}
+
+.sobre-cta-whatsapp:hover,
+.sobre-cta-email:hover {
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+    .confianza-contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-contenedor {
+        grid-template-columns: 1fr;
+        padding: 56px 16px;
+    }
+
+    .sobre-imagen {
+        height: 330px;
+    }
+}
+
+@media (max-width: 520px) {
+    .confianza-contenedor {
+        grid-template-columns: 1fr 1fr;
+        gap: 26px 14px;
+    }
+
+    .confianza-item strong {
+        font-size: 15px;
+    }
+
+    .sobre-cta h2 {
+        font-size: 26px;
+    }
+
+    .sobre-cta-whatsapp,
+    .sobre-cta-email {
+        width: 100%;
+    }
+}
