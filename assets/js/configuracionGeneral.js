@@ -63,7 +63,7 @@ const CONFIG = {
       },
 
       imagen: {
-         src: "assets/img/hero-seguridad.png",
+         src: "assets/img/hero-seguridad.webp",
          alt: "Elementos de seguridad industrial"
       },
 
@@ -82,7 +82,7 @@ const CONFIG = {
       items: [
          {
             icono: "health_and_safety",
-            titulo: "Seguridad e higiene laboral",
+            titulo: "Gestión integral de seguridad industrial y salud ocupacional",
             descripcion: "Implementación de programas de seguridad, auditorías internas y control de riesgos en planta."
          },
          {
@@ -97,7 +97,7 @@ const CONFIG = {
          },
          {
             icono: "eco",
-            titulo: "Gestión ambiental",
+            titulo: "Cumplimiento de normativas y legislaciones vigentes",
             descripcion: "Estudios de impacto ambiental, gestión de residuos y cumplimiento de leyes ecológicas."
          },
          {
@@ -133,7 +133,7 @@ const CONFIG = {
          "Nuestro equipo técnico está conformado por especialistas con amplia trayectoria en diversos sectores industriales. Aplicamos una metodología orientada a resultados concretos, optimizando procesos y garantizando que su empresa opere bajo los más altos estándares de seguridad nacional e internacional.",
 
       imagen: {
-         src: "assets/img/sobre-nosotros.png",
+         src: "assets/img/sobre-nosotros.webp",
          alt: "Equipo técnico de seguridad e higiene"
       },
 
