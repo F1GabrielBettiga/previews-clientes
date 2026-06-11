@@ -154,7 +154,7 @@ const CONFIG = {
          whatsappTexto: "Contactar WhatsApp",
          whatsappNumero: "5491166855761",
          emailTexto: "Enviar un Email",
-         email: "f1gabriel_bettiga@outlook.es"
+         email: "hernanparig@gmail.com"
       }
    },
 
@@ -170,7 +170,7 @@ const CONFIG = {
       whatsappTexto: "+54 11 6685-5761",
       whatsappNumero: "5491166855761",
 
-      email: "f1gabriel_bettiga@outlook.es",
+      email: "hernanparig@gmail.com",
 
       marcaVisual: {
          mostrar: true,
@@ -229,7 +229,7 @@ const CONFIG = {
       contacto: {
          whatsapp: "+54 9 11 6685-5761",
          whatsappNumero: "5491166855761",
-         email: "f1gabriel_bettiga@outlook.es",
+         email: "hernanparig@gmail.com",
          ubicacion: "Buenos Aires, Argentina"
       },
 
