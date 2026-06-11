@@ -1,6 +1,18 @@
 const CONFIG = {
 
    /* =========================================
+      SECCIÓN SEO
+      ========================================= */
+   empresa: {
+      nombre: "SEGNEOS",
+      telefonoVisible: "+54 9 11 6685-5761",
+      telefonoWhatsapp: "5491166855761",
+      email: "hernanparig@gmail.com",
+      ubicacion: "Buenos Aires, Argentina",
+      region: "Buenos Aires",
+      pais: "Argentina"
+   },
+   /* =========================================
       SECCIÓN PÁGINA / MARCA
       ========================================= */
    pagina: {
