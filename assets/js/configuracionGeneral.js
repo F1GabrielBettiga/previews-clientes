@@ -36,15 +36,15 @@ const CONFIG = {
    },
 
    /* =========================================
-      SECCIÓN HERO / INICIO
-      ========================================= */
+   SECCIÓN HERO / INICIO
+========================================= */
    hero: {
       badge: "SEGNEOS | Seguridad e Higiene",
 
-      titulo: "Consultoría integral en",
-      tituloResaltado: "Seguridad, Higiene y Medio Ambiente",
+      titulo: "Consultora de Seguridad e Higiene",
+      tituloResaltado: "Para Empresas",
 
-      descripcion: "Soluciones profesionales para empresas que buscan trabajar de forma segura, responsable y alineada a la normativa vigente.",
+      descripcion: "Soluciones profesionales en seguridad laboral, higiene y medio ambiente para empresas que buscan prevenir riesgos, cumplir la normativa vigente y trabajar de forma responsable.",
 
       beneficios: [
          { icono: "check_circle", texto: "Prevención" },
@@ -64,7 +64,7 @@ const CONFIG = {
 
       imagen: {
          src: "assets/img/hero-seguridad.webp",
-         alt: "Elementos de seguridad industrial"
+         alt: "Elementos de seguridad industrial para prevención de riesgos laborales"
       },
 
       cardImagen: {
@@ -72,7 +72,6 @@ const CONFIG = {
          texto: "Seguridad laboral | Gestión ambiental"
       }
    },
-
    /* =========================================
       SECCIÓN SERVICIOS
       ========================================= */
