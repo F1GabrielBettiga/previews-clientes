@@ -7,7 +7,7 @@ const CONFIG = {
       nombre: "SEGNEOS",
       telefonoVisible: "+54 9 11 6685-5761",
       telefonoWhatsapp: "5491166855761",
-      email: "hernanparig@gmail.com",
+      email: "info@segneo.com",
       ubicacion: "Buenos Aires, Argentina",
       region: "Buenos Aires",
       pais: "Argentina"
@@ -165,7 +165,7 @@ const CONFIG = {
          whatsappTexto: "Contactar WhatsApp",
          whatsappNumero: "5491166855761",
          emailTexto: "Enviar un Email",
-         email: "hernanparig@gmail.com"
+         email: "info@segneo.com"
       }
    },
 
@@ -181,7 +181,7 @@ const CONFIG = {
       whatsappTexto: "+54 11 6685-5761",
       whatsappNumero: "5491166855761",
 
-      email: "hernanparig@gmail.com",
+      email: "info@segneo.com",
 
       marcaVisual: {
          mostrar: true,
@@ -240,7 +240,7 @@ const CONFIG = {
       contacto: {
          whatsapp: "+54 9 11 6685-5761",
          whatsappNumero: "5491166855761",
-         email: "hernanparig@gmail.com",
+         email: "info@segneo.com",
          ubicacion: "Buenos Aires, Argentina"
       },
 
